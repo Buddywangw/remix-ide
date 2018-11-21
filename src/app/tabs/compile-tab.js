@@ -557,7 +557,7 @@ module.exports = class CompileTab {
           "loading " + self.data.selectedVersion + " not allowed"
         );
       }
-      console.log("self.data1", self.data);
+      console.log("self.data111", self.data);
       url = `${self.data.baseurl}/${self.data.selectedVersion}`;
     }
     var isFirefox = typeof InstallTrigger !== "undefined";
